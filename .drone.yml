@@ -21,6 +21,7 @@ pipeline:
     secret_key: mrKF0HiiClVbOZFfg9aQAzFicvd3ITZO4HkLYSA9
     repo: people22/helloworld
     region: ap-northeast-1
+    registry: 727939120501.dkr.ecr.ap-northeast-1.amazonaws.com
     tags: ${DRONE_COMMIT_SHA:0:8}
    
   deploy:
