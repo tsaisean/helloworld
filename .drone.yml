@@ -1,10 +1,6 @@
 pipeline:
-  install:
-    image: ruby:2.3
-    commands:
-      - bundle install
-
   testing:
     image: ruby:2.3
     commands:
+      - bundle install
       - bundle exec rspec
