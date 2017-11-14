@@ -25,7 +25,7 @@ pipeline:
    
   deploy:
     image: appleboy/drone-ssh
-    host: stewart.people22.com
+    host: sean.people22.com
     username: ec2-user
     secrets: 
       - source: my_private_key
